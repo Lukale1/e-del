@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    font-family: sans-serif;
+    background: white;
+}
+
+.container{
+    width: 825px;
+    margin-left: 0;
+    margin-top: 30px;
+}
+
+.navbar{
+    width: 900px;
+    /* background: green; */
+}
+
+.icon{
+    width: 1400px;
+    float: left;
+}
+
+.m{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.img{
+    border-radius: 15px;
+    height: 60px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+/* .c{
+    width: 100px;
+    height: 100vh;
+    background: white;
+    display: flex;
+}
+
+form{
+    background: white;
+    width: 400px;
+    height: 60px;
+    border-radius: 15px;
+}  */
+
+.s{
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+}
+.h{
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.h a{
+    color: black;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.h a:hover{
+    color: blue;
+}
+
+.left{
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    gap: 0.3rem;
+}
+
+.left a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.all{
+    position: absolute;
+    top: 6%;
+    right: 0;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.all a{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.call{
+    border-radius: 10px;
+    border: 1.5px solid black;
+    background: white;
+    height: 50px;
+    width: 140px;
+}
+
+.ksh{
+    text-align: center;
+    background: yellow;
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+}
+
+.fave{
+    text-transform: uppercase;
+}
+
+.fave a:hover{
+    color: red;
+}
+
+:nth-child()
+
+.log a:hover{
+    color: red;
+}
+
+.ksh a:hover{
+    color: darkgray;
+}
+
+.menu{
+    width: 800px;
+    float: left;
+}
+
+ul{
+    display: flex;
+    gap: 2.5rem;
+    margin-top: 25px;
+}
+
+ul li{
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 20%;
+}
+
+ul li a{
+    text-decoration:none;
+    color: black;
+}
+
+ul li a:hover{
+    color: red;
+}
+
+.img-1{
+    width: 1500px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: 0;
+}
+
+.nunua{
+    font-size: 22px;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 450px;
+}
+
+.zote{
+    background: yellow;
+    margin-left: 450px;
+    height: 100px;
+}
+
+.maneno{
+    font-size: 22px;
+    max-width: 1200px;
+}
+.btn{
+    cursor: pointer;
+    width: 450px;
+    height: 30px;
+    background: red;
+    color: white;
+    text-transform: uppercase;
+}
+
+.s{
+    width: 450px;
+    height: 30px;
+}
+
+.chagua{
+    display: flex;
+    gap: 1.5rem;
+}
+.foot{
+    width: calc(1200px + 150px);
+    margin-top: 30px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.tengeza{
+    margin-left: 0;
+    margin-top: 30px;
+    display: flex;
+    gap: 1.5rem;
+    background: grey;
+    color: white;
+    width: calc(1200px + 150px);
+}
+
+.img-3{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.pia{
+    max-width: 650px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.sh{
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-size: 18px;
+    max-width: 100%;
+}
+
+ol{
+    list-style: none;
+    margin-left: 30px;
+
+}
+
+.ofni{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-left: 45px;
+}
+
+.up{
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.mail{
+    width: 250px;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.bn{
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 15px;
+    background: yellow;
+    color: white;
+    height: 45px;
+    width: 70px;
+    border-radius: 15px;
+    border: none;
+}
